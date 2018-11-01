@@ -1,0 +1,38 @@
+[
+    {
+        "model": "irclogs.irclog",
+        "pk": 1,
+        "fields": {
+            "nick": "utz",
+            "message": "yea w/e chief",
+            "created_at": "2018-02-14 00:00:00"
+        }
+    },
+    {
+        "model": "irclogs.irclog",
+        "pk": 2,
+        "fields": {
+            "nick": "utz",
+            "message": "wooha~",
+            "created_at": "2018-01-14 00:00:00"
+        }
+    },
+	{
+		"model": "irclogs.irclog",
+		"pk": 3,
+		"fields": {
+			"nick": "utz",
+			"message": "<.<",
+			"created_at": "2018-01-14 00:00:00"
+		}
+	},
+	{
+		"model": "irclogs.irclog",
+		"pk": 4,
+		"fields": {
+			"nick": "utz",
+			"message": "i just sold aichan to an azn in houston ;x",
+			"created_at": "2018-01-14 00:00:00"
+		}
+	}
+]

@@ -1,0 +1,29 @@
+{
+  "name": "anx-programming",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development ./website/frontend/src/index.js --output ./website/frontend/static/frontend/main.js",
+    "build": "webpack --mode production ./website/frontend/src/index.js --output ./website/frontend/static/frontend/main.js",
+	"flush": "python ./website/manage.py flush --no-input",
+    "cypress": "cypress open --project ./website/frontend/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "cypress": "^3.1.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0",
+    "weak-key": "^1.0.1",
+    "webpack": "^4.23.1",
+    "webpack-cli": "^3.1.2"
+  }
+}
