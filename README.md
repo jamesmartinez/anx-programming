@@ -8,5 +8,5 @@ I wasn't sure to include my venv or not so I will just say what needs to be inst
 2. pip install djangorestframework
 3. pip install django-cors-headers
 4. npm install
-python website/manage.py runserver
-npm run cypress
+5. python website/manage.py runserver
+6. npm run cypress
